@@ -1,0 +1,18 @@
+# Env & secrets
+.env
+
+# Virtual env
+venv/
+
+# Cache folders
+llm_cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Outputs
+# output.txt
+
+# IDE
+.vscode/
