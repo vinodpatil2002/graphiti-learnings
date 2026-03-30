@@ -132,7 +132,7 @@ python gst_memory.py
 The system runs:
 
 ```text
-Which dealers are suspicious in Telangana?
+Which dealers are suspicious in Karnataka?
 ```
 
 And returns relevant insights from stored investigation episodes.

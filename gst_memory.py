@@ -59,7 +59,7 @@ async def main():
         name="Case-001 Initial Investigation",
         episode_body="""
         On March 15 2024, investigator Priya Sharma flagged Dealer F
-        (GSTIN: 36FFFF1111F1Z1) from Telangana. Dealer F filed 6 invoices
+        (GSTIN: 36FFFF1111F1Z1) from Karnataka. Dealer F filed 6 invoices
         in March 2024 totalling Rs 5.7 lakh, all under HSN code 8471 (Computers).
         Dealer F has a SIMILAR_TO score of 0.96 with Dealer G and 0.92 with
         Dealer K, forming a suspicious circular cluster of 6 dealers.
@@ -96,7 +96,7 @@ async def main():
         name="Case-002 New Suspect",
         episode_body="""
         On March 28 2024, investigator Rahul Mehta opened Case 002.
-        A new dealer XYZ Supplies (GSTIN: 36XYZZ9999X9Z9) from Telangana
+        A new dealer XYZ Supplies (GSTIN: 36XYZZ9999X9Z9) from Karnataka
         was flagged for velocity spike — filed 2 invoices in January 2024
         but 18 invoices in March 2024. XYZ Supplies also shares HSN code
         8471 with the Case 001 cluster suggesting possible connection
@@ -111,7 +111,7 @@ async def main():
 
     print("\nSearching memory...")
     results = await graphiti.search(
-        query="Which dealers are suspicious in Telangana?",
+        query="Which dealers are suspicious in Karnataka?",
         num_results=5
     )
 
