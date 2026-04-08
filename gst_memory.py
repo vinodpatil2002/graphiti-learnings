@@ -39,6 +39,9 @@ embedder = OpenAIEmbedder(
     )
 )
 
+
+
+
 graphiti = Graphiti(
     uri=NEO4J_URI,
     user=NEO4J_USER,
